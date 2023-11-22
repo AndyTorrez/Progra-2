@@ -1,0 +1,15 @@
+class Vehiculo {
+    String marca;
+
+    public Vehiculo(String marca) {
+        this.marca = marca;
+    }
+
+    public void arrancar() {
+        System.out.println("Arrancando el vehículo");
+    }
+
+    public void detener() {
+        System.out.println("Deteniendo el vehículo");
+    }
+}
