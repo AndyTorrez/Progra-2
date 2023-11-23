@@ -22,7 +22,7 @@ public class Controladora{
 		escritor.close();
 
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+           
         }
 
 	try {
